@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+python-decouple = "*"
+sqlalchemy = "*"
+psycopg2 = "==2.9.6"
+psycopg2-binary = "==2.9.6"
+pydantic = "*"
+alembic = "*"
+email-validator = "*"
+bcrypt = "*"
+python-jose = "*"
+passlib = "*"
+pyjwt = "*"
+pytest = "*"
+httpx = "*"
+pydantic-settings = "*"
+asyncpg = "==0.25.0"
+databases = "==0.5.3"
+asyncclick = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.10"
